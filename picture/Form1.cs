@@ -29,7 +29,7 @@ namespace picture
                 double f = double.Parse(textBox1.Text);
                 double a = double.Parse(textBox2.Text);
                 double ans = sin(a);
-                label1.Text = "Answer = " + ans;
+                label1.Text = "Answer = " + ans; 
             }
             catch
             {
